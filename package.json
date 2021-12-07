@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A library that replaces a text string with the same text, but it looks more french.",
   "main": "index.js",
+  "typings": "index",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
