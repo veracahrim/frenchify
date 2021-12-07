@@ -1,6 +1,6 @@
 {
   "name": "frenchify-for-fun",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A library that replaces a text string with the same text, but it looks more french.",
   "main": "index.js",
   "typings": "index",
