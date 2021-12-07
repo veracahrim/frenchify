@@ -6,4 +6,4 @@ function frenchify(string) {
     return frenchifiedString
 }
 
-module.exports.frenchify = frenchify
+module.exports = frenchify
