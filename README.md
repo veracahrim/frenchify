@@ -1,7 +1,21 @@
 #What is this?
 
-a library that replaces a text string with the same text, but it looks more french.
+A library that replaces a text string with the same text, but it looks more french.
 
-#What is this for? 
+#What is good for? 
 
- This is a fun-project and doesnt have any uses.
+Absolutely nothing
+
+#Installation
+
+```
+npm i frenchify --save
+```
+
+#Usage
+
+```
+import { frenchify } from 'frenchify'
+
+frenchify('This is an example sentence. Oh My Word!')
+```
