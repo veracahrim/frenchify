@@ -1,4 +1,4 @@
-module.exports = frenchify
+module.exports.frenchify = frenchify
 
 function frenchify(string) {
     let frenchifiedString = string.replace('e', 'é')

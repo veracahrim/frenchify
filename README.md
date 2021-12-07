@@ -9,13 +9,13 @@ Absolutely nothing
 #Installation
 
 ```
-npm i frenchify --save
+npm i frenchify-for-fun --save
 ```
 
 #Usage
 
 ```
-import { frenchify } from 'frenchify'
+import { frenchify } from 'frenchify-for-fun'
 
 frenchify('This is an example sentence. Oh My Word!')
 ```
