@@ -1,3 +1,5 @@
+module.exports = frenchify
+
 function frenchify(string) {
     let frenchifiedString = string.replace('e', 'é')
     frenchifiedString = frenchifiedString.replace('c', 'ç')
@@ -5,5 +7,3 @@ function frenchify(string) {
     frenchifiedString = frenchifiedString.replace('o', 'ô')
     return frenchifiedString
 }
-
-module.exports = frenchify
