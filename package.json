@@ -1,10 +1,12 @@
 {
   "name": "frenchify-for-fun",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A library that replaces a text string with the same text, but it looks more french.",
-  "main": "index.js",
-  "typings": "index",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
+    "prepublish": "npm run build",
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -14,9 +16,12 @@
   "homepage": "https://github.com/veracahrim/frenchify#readme",
   "keywords": [],
   "bugs": {
-    "url" : "https://github.com/veracahrim/frenchify/issues",
-    "email" : "patrickbrunner96@hotmail.ch"
+    "url": "https://github.com/veracahrim/frenchify/issues",
+    "email": "patrickbrunner96@hotmail.ch"
   },
   "author": "Patrick Brunner",
-  "license": "unlicensed"
+  "license": "unlicensed",
+  "devDependencies": {
+    "typescript": "^4.5.2"
+  }
 }
